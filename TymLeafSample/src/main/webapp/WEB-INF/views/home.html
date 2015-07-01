@@ -1,0 +1,14 @@
+<html>
+<head>
+	<title>Home</title>
+</head>
+<body>
+<head th:include="Header :: headerFragment" />
+<h1>
+	This Is Home Page....!  
+</h1>
+
+<P>  The time on the server is <span th:text="${serverTime}">serverTime</span> </P>
+<footer th:include="Footer :: footerFragment" />
+</body>
+</html>
