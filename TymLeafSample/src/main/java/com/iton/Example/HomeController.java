@@ -36,7 +36,7 @@ public class HomeController {
 	public String contactPage()
 	{
 		
-		
+		System.out.println("In contact page");
 		return "Contact";
 	}
 }
